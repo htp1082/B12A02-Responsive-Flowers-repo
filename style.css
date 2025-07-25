@@ -174,41 +174,68 @@ span {
   font-size: 50px;
 }
 
+.join-section {
+  height: 535px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./assets/news-letter-bg.png");
+  color: white;
+}
 
-  .join-section{
-    height: 535px;
+input {
+  width: 644px;
+  height: 50px;
+  padding-left: 15px;
+  background-color: white;
+  color: #8987a1;
+}
+
+.sub {
+  background-color: #e95a08;
+  width: 181px;
+  height: 50px;
+}
+
+.input-data {
+  height: 50px;
+  width: 830px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+/* -- footer-section--- */
+
+.footer{
     width: 100%;
+    height: 350px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./assets/news-letter-bg.png");
-    color: white;
-   
-   
-  }
-
-  input{
-    width: 644px;
-    height: 50px;
-    padding-left: 15px;
-    background-color: white;
     color: #8987a1;
+}
 
-  }
+.first-footer img{
+    margin-bottom: 20px;
+}
 
-  .sub{
-    background-color: #e95a08;
-    width: 181px;
-    height: 50px;
-  }
+.footer-social {
+  width: 216px;
+}
 
-  .input-data{
-    
-    height: 50px;
-    width: 830px;
-    background-color: white;
-    margin-top: 30px;
-  }
+.footer-social img{
+    width: 36px;
+    height: 36px;
+    margin: 10px;
+}
+
+.footer-text{
+    gap: 60px;
+    line-height: 3;
+}
+
 
 
 /* --- responsive degine--- */
@@ -229,9 +256,6 @@ span {
     flex-direction: column-reverse;
     margin: 10px;
   }
-
-  /* join section */
-
 
   /* --bannar section responsive-- */
 
@@ -283,9 +307,9 @@ span {
 
   /* latest deals section */
 
+
   .deals-container {
     flex-direction: column;
-    
   }
 
   .big-img-container {
@@ -301,37 +325,57 @@ span {
     margin-top: 10px;
     font-size: 18px;
     font-style: bolder;
-    margin-left:33px;
+    margin-left: 33px;
     background-size: contain;
   }
-  .first-div{
+  .first-div {
     margin-left: 35px;
   }
 
-  .secound-div{
+  .secound-div {
     margin-left: 35px;
   }
 
-  .join-section{
+  .join-section {
     height: 276px;
     width: 100%;
     background-size: contain;
   }
 
-  .join-text h1{
+  .join-text h1 {
     font-size: 30px;
   }
 
-  .input-data{
+  .input-data {
     max-width: 321px;
     max-height: 50px;
   }
 
-  input{
+  input {
     max-width: 216px;
   }
 
-  .sub{
+  .sub {
     max-width: 100px;
+  }
+
+  /* footer-section */
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+  .first-footer p{
+    font-size: 20px;
+  }
+
+  .footer-text{
+    flex-direction: column;
+    gap: 12px;
   }
 }
