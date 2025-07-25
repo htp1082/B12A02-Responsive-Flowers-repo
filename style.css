@@ -174,6 +174,43 @@ span {
   font-size: 50px;
 }
 
+
+  .join-section{
+    height: 535px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./assets/news-letter-bg.png");
+    color: white;
+   
+   
+  }
+
+  input{
+    width: 644px;
+    height: 50px;
+    padding-left: 15px;
+    background-color: white;
+    color: #8987a1;
+
+  }
+
+  .sub{
+    background-color: #e95a08;
+    width: 181px;
+    height: 50px;
+  }
+
+  .input-data{
+    
+    height: 50px;
+    width: 830px;
+    background-color: white;
+    margin-top: 30px;
+  }
+
+
 /* --- responsive degine--- */
 
 @media (max-width: 576px) {
@@ -192,6 +229,9 @@ span {
     flex-direction: column-reverse;
     margin: 10px;
   }
+
+  /* join section */
+
 
   /* --bannar section responsive-- */
 
@@ -270,5 +310,28 @@ span {
 
   .secound-div{
     margin-left: 35px;
+  }
+
+  .join-section{
+    height: 276px;
+    width: 100%;
+    background-size: contain;
+  }
+
+  .join-text h1{
+    font-size: 30px;
+  }
+
+  .input-data{
+    max-width: 321px;
+    max-height: 50px;
+  }
+
+  input{
+    max-width: 216px;
+  }
+
+  .sub{
+    max-width: 100px;
   }
 }
