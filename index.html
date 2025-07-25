@@ -1,247 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Fresh Flowers Website</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <header class="header">
+      <!-- navbar section -->
 
-        <!-- navbar section -->
-
-        <nav class="flex mt-10">
-            <div class="logo">
-                <img src="./assets/logo.png" alt="Foujel flower shop logo">
-            </div>
-
-            <div class="nav-link  flex items-center">
-                <li><a href="#" class="font-bold" style="color: black;">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#" class="font-bold" style="color: black;"><i class="fa-solid fa-cart-plus"></i>Cart ($56)</a></li>
-            </div>
-
-              <div class="cart">
-                 <li><a href="#" class="font-bold" style="color: black;"><i class="fa-solid fa-cart-plus"></i>Cart ($56)</a></li>
-            </div>
-
-        </nav>
-
-
-        <!-- bannar-section -->
-
-        <div class="bannar flex mt-30">
-            <div class="bannar-text">
-                <h1 class="text-6xl font-bold bannar-title mb-5">ALWAYS <span>FRESH</span> <br> <span>FLOWERS</span> </h1>
-                <p class="dark01">"Flowers are nature’s unique gift, symbolizing beauty, love, and peace. Their vibrant colors soothe our minds and bring life to our surroundings. Each flower speaks its own language — roses express love, marigolds bring messages of celebration, and sunflowers inspire us with positivity. </p>
-            </div>
-
-            <div class="bannar-img">
-                <img src="./assets/hero-flower.png" alt="Lot of flowers">
-            </div>
+      <nav class="flex mt-10">
+        <div class="logo">
+          <img src="./assets/logo.png" alt="Foujel flower shop logo" />
         </div>
+
+        <div class="nav-link flex items-center">
+          <li><a href="#" class="font-bold" style="color: black">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About Us</a></li>
+          <li>
+            <a href="#" class="font-bold" style="color: black"
+              ><i class="fa-solid fa-cart-plus"></i>Cart ($56)</a
+            >
+          </li>
+        </div>
+
+        <div class="cart">
+          <li>
+            <a href="#" class="font-bold" style="color: black"
+              ><i class="fa-solid fa-cart-plus"></i>Cart ($56)</a
+            >
+          </li>
+        </div>
+      </nav>
+
+      <!-- bannar-section -->
+
+      <div class="bannar flex mt-30">
+        <div class="bannar-text">
+          <h1 class="text-6xl font-bold bannar-title mb-5">
+            ALWAYS <span>FRESH</span> <br />
+            <span>FLOWERS</span>
+          </h1>
+          <p class="dark01">
+            "Flowers are nature’s unique gift, symbolizing beauty, love, and
+            peace. Their vibrant colors soothe our minds and bring life to our
+            surroundings. Each flower speaks its own language — roses express
+            love, marigolds bring messages of celebration, and sunflowers
+            inspire us with positivity.
+          </p>
+        </div>
+
+        <div class="bannar-img">
+          <img src="./assets/hero-flower.png" alt="Lot of flowers" />
+        </div>
+      </div>
     </header>
 
     <main class="main">
+      <div class="hero-section">
+        <!-- hero text -->
+        <div class="hero-text">
+          <h2 class="text-5xl text-center font-bold mb-5">
+            <span> Our</span> Plants
+          </h2>
+          <p class="text-center dark01">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From <br />classic roses to exotic blooms, we offer a
+            wide variety of fresh.
+          </p>
+        </div>
 
-           <div class="hero-section">
+        <!-- hero container -->
 
-            <!-- hero text -->
-                 <div class="hero-text ">
-                    <h2 class="text-5xl text-center font-bold mb-5"> <span> Our</span> Plants</h2>
-                    <p class="text-center dark01">Indulge your senses with the beauty and fragrance of our fresh flower shop. From  <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-                 </div>
-
-            <!-- hero container -->
-
-                 <div class="hero-container">
-                
-                     <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="./assets/sample-flower-image.png" alt="Lot of flower in jar">
-                        </div>
-                        <div class="card-content">
-                          <h3 class="text-center mt-5">Liliy Bloosom</h3>
-                          <h4 class="text-center font-bold mt-2">20 USD</h4>
-                          <button class="primary-btn">ADD TO CART</button>
-                        </div>
-                    </div>
-
-                 </div>
-           </div>
-
-           <!-- flowers and plants section -->
-
-           <div class="flowers_and_plants-container flex gap-[80px] mt-40">
-
-              <div class="flower-store">
-                 <img class="flower" src="./assets/flower-store.png" alt="Flower Store shop">
-
-                   <div class="trusted-badge">
-                     <img src="./assets/trusted-badge.png" alt="Trusted Badge Stamp">
-                   </div>
-
-              </div>
-
-            <div class="flower_and_plant-text">
-                <h1 class="text-5xl mt-20 font-bold mb-5" >Flower & Plants <br> Lover</h1>
-
-                <ul class="flower-list">
-
-                     <li>Flower and plant lovers admire nature’s delicate beauty.
-They enjoy nurturing blooms, watering roots, and watching leaves sway.
-Their world is full of color, calmness, and blooming joy.</li>
-
-              <li>With every petal, they feel peace grow stronger.
-Plant lovers find comfort in green spaces and gentle scents.
-Nature becomes a friend, a healer, and daily inspiration.</li>
-
-<li>Their hands touch soil, their hearts bloom with care.
-Every flower planted carries hope, patience, and love.
-They bring nature indoors, making life fresh and vibrant.</li>
-
-                </ul>
-
-
-
+        <div class="hero-container">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
             </div>
-            
-                     
-           </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
+            </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
+            </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
+            </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
+            </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
+            </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
+            </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
+            </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
+            </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
+            </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
+            </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="Lot of flower in jar"
+              />
+            </div>
+            <div class="card-content">
+              <h3 class="text-center mt-5">Liliy Bloosom</h3>
+              <h4 class="text-center font-bold mt-2">20 USD</h4>
+              <button class="primary-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- flowers and plants section -->
+
+      <div class="flowers_and_plants-container flex gap-[80px] mt-40">
+        <div class="flower-store">
+          <img
+            class="flower"
+            src="./assets/flower-store.png"
+            alt="Flower Store shop"
+          />
+
+          <div class="trusted-badge">
+            <img src="./assets/trusted-badge.png" alt="Trusted Badge Stamp" />
+          </div>
+        </div>
+
+        <div class="flower_and_plant-text">
+          <h1 class="text-5xl mt-20 font-bold mb-5">
+            Flower & Plants <br />
+            Lover
+          </h1>
+
+          <ul class="flower-list">
+            <li>
+              Flower and plant lovers admire nature’s delicate beauty. They
+              enjoy nurturing blooms, watering roots, and watching leaves sway.
+              Their world is full of color, calmness, and blooming joy.
+            </li>
+
+            <li>
+              With every petal, they feel peace grow stronger. Plant lovers find
+              comfort in green spaces and gentle scents. Nature becomes a
+              friend, a healer, and daily inspiration.
+            </li>
+
+            <li>
+              Their hands touch soil, their hearts bloom with care. Every flower
+              planted carries hope, patience, and love. They bring nature
+              indoors, making life fresh and vibrant.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- latest deals section -->
+
+      <div class="deals-section">
+        <div class="deals-text mt-30">
+          <h1 class="text-5xl font-bold mb-5 text-center">
+            <span>Latest </span>Deals
+          </h1>
+          <p class="text-center">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. <br />
+            From classic roses to exotic blooms, we offer a wide variety of
+            fresh.
+          </p>
+        </div>
+        <!-- deal container -->
+        <div class="deals-container">
+          <!-- first img -->
+          <div class="first-img-container">
+            <div class="first-div">
+              <div class="first-text">
+                <h4 class="font-bold">60% Off | Bloom Plant</h4>
+                <button>
+                  <a href="#" class="underline font-semibold">Shop Now</a>
+                </button>
+              </div>
+            </div>
+
+            <!-- secound img -->
+
+            <div class="secound-div">
+              <div class="secound-text">
+                <h4 class="font-bold">30% Off | Ana Plant</h4>
+                <button>
+                  <a href="#" class="underline font-semibold">Shop Now</a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- big ima -->
+
+          <div class="big-img-container">
+            <div class="big-img-text">
+              <h2 class="mb-5">25% Off | Zabo Plant</h2>
+              <button>
+                <a href="#" class="underline font-semibold"
+                  >Shop Now</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    
-</body>
-</html> 
+  </body>
+</html>
